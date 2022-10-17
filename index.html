@@ -1,0 +1,39 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <h1 id="home-score"> 0 </h1>
+                <button id="home1" onclick="homeOnePressed()"> +1 </button>
+                <button id="home2" onclick="homeTwoPressed()"> +2 </button>
+                <button id="home3" onclick="homeThreePressed()"> +3 </button>
+            </div>
+
+            <div>
+                <h3>GUEST</h3>
+                <h1 id="guest-score"> 0 </h1>
+                <button id="guest1" onclick="guestOnePressed()"> +1 </button>
+                <button id="guest2" onclick="guestTwoPressed()"> +2 </button>
+                <button id="guest3" onclick="guestThreePressed()"> +3 </button>
+            </div>
+
+        </div>
+<br>
+
+<!-- COUNTDOWN -->
+
+<h1 id="count-down"> 00:00:00 </h1>
+
+<!-- COUNTDOWN -->
+
+<br>
+        <div>
+            <button onclick="newGame(), newGameTimer()"> NEW GAME </button>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
